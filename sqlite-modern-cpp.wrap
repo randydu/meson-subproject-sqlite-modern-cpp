@@ -1,9 +1,9 @@
 [wrap-git]
 
 directory = sqlite-modern-cpp
-url=http://echo:3000/randy/meson-subproject-polyhook2.git
-revision = head
+url=https://github.com/randydu/meson-subproject-sqlite-modern-cpp.git
+revision = v3.2
 clone-recursive = true
 
 [provide]
-polyhook2 = polyhook2_dep
+sqlite-modern-cpp = sqlite_modern_cpp_dep
